@@ -1,7 +1,12 @@
+[workspace]
+
+# Add here until we move to edition=2021
+#resolver = "2"
+
 [package]
 name = "openssl-sys-test-project"
 version = "0.1.0"
-edition = "2018"
+#edition = "2018"
 resolver = "2"
 
 [dependencies]
