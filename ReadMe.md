@@ -3,7 +3,15 @@
 Requirements: docker
 
 ```bash
-cargo install cargo
+cargo install cross
+```
+
+```bash
+rustup target list
+```
+
+```bash
+rustup target add aarch64-unknown-linux-gnu
 ```
 
 ```bash
